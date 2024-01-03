@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>sioyek</string>
+	<string>Sioyek</string>
 	<key>CFBundleExecutable</key>
 	<string>@EXECUTABLE@</string>
 	<key>CFBundleIconFile</key>
@@ -24,18 +24,18 @@
 	<true/>
 	<key>CFBundleDocumentTypes</key>
     <array>
-        <dict>
-			<key>CFBundleTypeName</key>
-			<string>PDF Document</string>
-			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
-			<key>LSHandlerRank</key>
-			<string>Alternate</string>
-			<key>LSItemContentTypes</key>
-			<array>
-				<string>com.adobe.pdf</string>
-			</array>
-		</dict>
+	<dict>
+		<key>CFBundleTypeName</key>
+		<string>PDF Document</string>
+		<key>CFBundleTypeRole</key>
+		<string>Viewer</string>
+		<key>LSHandlerRank</key>
+		<string>Alternate</string>
+		<key>LSItemContentTypes</key>
+		<array>
+		<string>com.adobe.pdf</string>
+		</array>
+	</dict>
     </array>
 </dict>
 </plist>
